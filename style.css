@@ -1,0 +1,62 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: rgb(2, 60, 2);
+  font-family:'Times New Roman', Times, serif;
+  justify-items:center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 75%;
+}
+
+
+header > h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+
+header > p {
+  font-size: 25px;
+}
+
+section {
+  background-color: rgb(225, 208, 178) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.humor {
+  background-color: #c5ac88de;
+  border-color: rgb(125, 78, 8);
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 24px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.humor:hover {
+  background-color: rgb(225, 208, 178);
+  color: rgb(0, 0, 0);
+}
+
+.box {
+  width: 700px;
+  height: auto;
+  background-color: rgb(205, 164, 123);
+  border: 3px solid rgb(125, 78, 8);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: black;
+  
+}
